@@ -1,0 +1,18 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String str=sc.nextLine();
+       
+        int x=sc.nextInt();
+        int y=sc.nextInt();
+        StringBuilder sb=new StringBuilder(str);
+        sb.delete(x,y);
+        System.out.println(sb);
+        ;
+        
+    }
+}
